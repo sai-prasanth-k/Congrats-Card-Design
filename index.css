@@ -1,0 +1,40 @@
+/* 
+person-img
+person-name
+college-name
+watch-img */
+
+.congrats-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem;
+  margin: 20px;
+}
+
+.congrats-heading {
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.person-name {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.content-container {
+  background-color: #cffafe;
+  padding: 3.4rem;
+  text-align: center;
+}
+
+@media (max-height: 768px) {
+  .congrats-heading {
+    font-size: 1.4rem;
+  }
+}
